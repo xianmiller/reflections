@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+1. git creates the framework for tracking the content in the repository.
+2. we need to do it in order to correctly commit files into the repository when needed.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+1. the staging area is an intermediary between the working diretory and the repository
+2. it allows the user to specifically designate which files to commit (or not) prior to actually committing the files to the repository.
+
