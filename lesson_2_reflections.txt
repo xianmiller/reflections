@@ -10,3 +10,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 1. by using the diff command and diff --staged command, you can compare the changes to the content between working directory,
 staging area, and the latest commit.  This ensures that single logcal changes can be committed at a time.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1. Branches would be helpful when adding an experimental feature, and want to test it before adding it to the main code.
+OR, when adding a language version, or maybe a new interface. Basically when you are not 100% that it should be implemented.
+2. Branches help by maintaining a clean 'master' branch for what you know works, while a branch is something that might not get implemented.
+
