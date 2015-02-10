@@ -22,3 +22,9 @@ What is the result of merging two branches together? Why do we represent it in t
 1. it combines the code from each branch into a new head point.
 2. because it combines the two into one.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+1. Pros are that it doesnt require oversight, and can quickly add features to the master, or allow testing of new features using the master code
+Cons are that it may not know exactly what needs to change when the same area was changed in both branches. works best when only different areas change.
+2. Pros of doing merge manually, is that you always know exactly what parts of the code to use from each branch.
+Cons is that it takes longer to review items which do not overlap or are in conflict.
+
